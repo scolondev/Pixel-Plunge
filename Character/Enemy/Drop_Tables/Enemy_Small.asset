@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e9a45bb9180fd4897b6f2d5e518e88, type: 3}
+  m_Name: Enemy_Small
+  m_EditorClassIdentifier: 
+  rolls: 040000000a000000
+  entries:
+  - _name: Bronze Coin
+    result: {fileID: 841370125473543900, guid: 18585ddae726d124fb5487bfcb39e61d, type: 3}
+    weight: 60
+  - _name: Silver Coin
+    result: {fileID: 1716550529200797037, guid: cd047742f7364e948af02310ed7ce7dc,
+      type: 3}
+    weight: 30
+  - _name: Gold Coin
+    result: {fileID: 7083791795548241138, guid: 088e252c762f06f4583c752d30c05a43,
+      type: 3}
+    weight: 5
+  - _name: Essence Small
+    result: {fileID: 5202355332363881317, guid: 69d96ec1d62021f4e8a3f6d38f792dd3,
+      type: 3}
+    weight: 60
+  - _name: Heart
+    result: {fileID: 2004522336290406223, guid: ec5ae7929510621418b7646338d4d2f2,
+      type: 3}
+    weight: 5

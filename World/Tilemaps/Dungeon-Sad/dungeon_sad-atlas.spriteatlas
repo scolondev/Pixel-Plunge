@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dungeon_sad-atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+    totalSpriteSurfaceArea: 33792
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1215643413929777746, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -6129252286670265037, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 4201302093120727284, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 4927261521601320938, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -6770857694467222992, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 909721470648318937, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -2127433807220744305, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -2758460322421291820, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 671746792330871477, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 3181734796490927314, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 1429833238752844347, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -6825806857709000939, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 2717271947608926679, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 3057856243675512522, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 7009427548888356071, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -8371926888379043444, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -1765287912973839211, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -7013943314553101971, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 5362277736263549092, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 5960657719472647069, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -7083723783051662527, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 6132025510518506421, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -2582000918188793583, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -3250917932618700503, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -733350831830686409, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 1254895369725320253, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 5874058838788305811, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -5551814964338756586, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 2138708073837814111, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -101922597326762614, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -2595572899099223744, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: 5349937867207356417, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  - {fileID: -4994023329884438158, guid: dd99b3320e812a0419ed7f980411f4d6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - dungeon_sad_9
+  - dungeon_sad_8
+  - dungeon_sad_7
+  - dungeon_sad_6
+  - dungeon_sad_5
+  - dungeon_sad_4
+  - dungeon_sad_3
+  - dungeon_sad_2
+  - dungeon_sad_1
+  - dungeon_sad_0
+  - dungeon_sad_27
+  - dungeon_sad_30
+  - dungeon_sad_26
+  - dungeon_sad_31
+  - dungeon_sad_25
+  - dungeon_sad_32
+  - dungeon_sad_24
+  - dungeon_sad_23
+  - dungeon_sad_22
+  - dungeon_sad_21
+  - dungeon_sad_20
+  - dungeon_sad_29
+  - dungeon_sad_28
+  - dungeon_sad_18
+  - dungeon_sad_19
+  - dungeon_sad_12
+  - dungeon_sad_13
+  - dungeon_sad_10
+  - dungeon_sad_11
+  - dungeon_sad_16
+  - dungeon_sad_17
+  - dungeon_sad_14
+  - dungeon_sad_15
+  m_Tag: dungeon_sad-atlas
+  m_IsVariant: 0

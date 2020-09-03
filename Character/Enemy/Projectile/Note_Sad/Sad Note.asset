@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1b7745b85d2634dba8538b722cdd62, type: 3}
+  m_Name: Sad Note
+  m_EditorClassIdentifier: 
+  speed:
+    value: 200
+    maximum: 200
+    minimum: 1
+    wrapValue: 1
+  damage:
+    value: 1
+    maximum: 10
+    minimum: 1
+    wrapValue: 1
+  deathEffect: {fileID: 7109585312203832376, guid: 95a12ddc951c59343ba07d07047adc5a,
+    type: 3}
+  homing: 0
+  fireSound: Howler Scream
+  impactSound: 
+  seek: 2

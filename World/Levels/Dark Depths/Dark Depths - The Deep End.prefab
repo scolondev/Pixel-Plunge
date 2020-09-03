@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1936174317794384624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1936174317794384626}
+  - component: {fileID: 1936174317794384627}
+  m_Layer: 8
+  m_Name: Dark Depths - The Deep End
+  m_TagString: dungeon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1936174317794384626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936174317794384624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7369938069646792929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1936174317794384627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936174317794384624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e521615a998e3ca42a4b1e1dc2bb9df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSize: 18
+  minSize: 12
+  dungeonSize: 0
+  waitTime: 0.02
+  dungeon:
+    serializedVersion: 2
+    m_Bits: 256
+  start: {fileID: 8376213422977926427, guid: 8c16c2f5311843248bdf55ab618be3dc, type: 3}
+  exit: {fileID: 7702126078042445038, guid: 1d26bc2802d691b419f09d9c87c3df8e, type: 3}
+  spawn_table:
+  - _name: Berry Sad 3
+    result: {fileID: 5221771495349714269, guid: 4bf6589a166f72943bd322e1165d3a22,
+      type: 3}
+    weight: 5
+  - _name: Crossroads 1
+    result: {fileID: 8535795837578492287, guid: 1efc977f3618a4245a4278f1cec7f1ff,
+      type: 3}
+    weight: 5
+  - _name: Berry Sad 1
+    result: {fileID: 6451948554538626836, guid: 80d794c4e8fcd464abefe44640c87afe,
+      type: 3}
+    weight: 5
+  - _name: Berry Sad 2
+    result: {fileID: 5524075083651995171, guid: e3c8cee6a43d9644abe2f01db194a57f,
+      type: 3}
+    weight: 5
+  - _name: Berry Happy 2
+    result: {fileID: 869365099622624179, guid: ad3b8022bbba35b4cbae6fd8c20b7526, type: 3}
+    weight: 5
+  - _name: Berry Happy 1
+    result: {fileID: 1712269692110056902, guid: 9e4f216bae011aa4fa88d6b2f184e146,
+      type: 3}
+    weight: 5
+  - _name: Berry Happy 3
+    result: {fileID: 7608853249713907717, guid: 859be742bc62fb146ac8a34a264973ae,
+      type: 3}
+    weight: 5
+  - _name: Tunnel LR
+    result: {fileID: 6490317045139520294, guid: 32abb98793aa6754c81402ab22bf5a7c,
+      type: 3}
+    weight: 5
+  - _name: Tunnel TB
+    result: {fileID: 2467691357145489147, guid: 8ff6812186317f04ba25062f9a4b96ab,
+      type: 3}
+    weight: 5
+  - _name: Screams 1
+    result: {fileID: 7753432641591178625, guid: 5d70e98e8bf64934a9210c8fa7d7c803,
+      type: 3}
+    weight: 5
+  - _name: Screams 2
+    result: {fileID: 83240650883238450, guid: 3df8f8df334fa2e48a42e4842129f27d, type: 3}
+    weight: 5
+  - _name: Screams 3
+    result: {fileID: 6777387581724114215, guid: 26c5e62d50d5ed7409bc51045a317ecc,
+      type: 3}
+    weight: 5
+  - _name: Screams 4
+    result: {fileID: 3393064711207431893, guid: 99be1c9e6ca59ae4c9753422bf2cc76c,
+      type: 3}
+    weight: 5
+  - _name: Howler 1
+    result: {fileID: 2842576042037271706, guid: a05314cf0fdf69f4b8df2eec609e6dcb,
+      type: 3}
+    weight: 5
+  - _name: Howler 2
+    result: {fileID: 7796091100622916178, guid: 82fed43ce336df4438df52b8f94cab7a,
+      type: 3}
+    weight: 5
+  - _name: Howler 3
+    result: {fileID: 3512669896454260389, guid: 7b810d99c7183514893f943428e62b5b,
+      type: 3}
+    weight: 5
+  treasure_table:
+  - _name: B
+    result: {fileID: 4034831316468710599, guid: c50f593a2857a3540bbc697f7633ce23,
+      type: 3}
+    weight: 5
+  - _name: L
+    result: {fileID: 8781518679163620864, guid: d022566259086604686db1a897c0def4,
+      type: 3}
+    weight: 5
+  - _name: R
+    result: {fileID: 8653526754648089745, guid: 2149edde0e4ba8b4597ad82a8adfb6a3,
+      type: 3}
+    weight: 5
+  - _name: T
+    result: {fileID: 1943686228377729627, guid: f9a350aa171d3404698bb7f2d32357ef,
+      type: 3}
+    weight: 5
+  exit_table:
+  - _name: L
+    result: {fileID: 4214613554582953025, guid: 607f861fadcd9be43955e230422691d1,
+      type: 3}
+    weight: 5
+  - _name: R
+    result: {fileID: 7269818940282191920, guid: 1590d22e41fdaaa4f99cff8e5c867de3,
+      type: 3}
+    weight: 5
+  - _name: B
+    result: {fileID: 9026790202240464464, guid: 80c6a5a63eddb5442a51fbe38a6c84ee,
+      type: 3}
+    weight: 5
+  - _name: T
+    result: {fileID: 8601861403034003590, guid: e3be0ab2eb097004bab0f994561cbc86,
+      type: 3}
+    weight: 5
+--- !u!1 &5828063493466910032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7369938069646792929}
+  - component: {fileID: 3048991386338404213}
+  m_Layer: 8
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7369938069646792929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828063493466910032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1000, y: 1000, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1936174317794384626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3048991386338404213
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828063493466910032}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_Sprite: {fileID: 21300000, guid: 9bf255bbeb86a84448482835323942c1, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

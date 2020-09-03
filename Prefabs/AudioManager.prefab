@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2783487038253271084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2783487038253271087}
+  - component: {fileID: 2783487038253271086}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2783487038253271087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783487038253271084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2783487038253271086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783487038253271084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccc108dc5f656a4983b09b4d3c0b568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Button Press Negative
+    clip: {fileID: 8300000, guid: e9c0a07644561984d8e01f1546a2476f, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Button Press Positive
+    clip: {fileID: 8300000, guid: 5a178a94057bad44da34cd4906474260, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Button Press Positive Alt
+    clip: {fileID: 8300000, guid: 8a282e7f9376735449122ac8ebdd25c7, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Pickup Get
+    clip: {fileID: 8300000, guid: 7d3e73d180dab144bad1c6d3ef309388, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 0.9
+  - name: Jelly Hit 1
+    clip: {fileID: 8300000, guid: 693a9ea34fc351b47ab69ef4097f80b2, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Jelly Hit 2
+    clip: {fileID: 8300000, guid: 60b11785fbddcf04b989f5277899a543, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 0.5
+  - name: Jelly Hit 3
+    clip: {fileID: 8300000, guid: 889a58d1861f71341bb9aee89b6ae9e1, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Pod Break
+    clip: {fileID: 8300000, guid: e89fb8d435f8dc44783a7660991381f8, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 0.8
+  - name: Mask Hit
+    clip: {fileID: 8300000, guid: 19c0a36795de6fe41a6fb468d5d18606, type: 3}
+    source: {fileID: 0}
+    volume: 0.8
+    pitch: 0.9
+  - name: Mask Death
+    clip: {fileID: 8300000, guid: 6d06de18a152f3448b818914b4b62dbf, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Mask Fire
+    clip: {fileID: 8300000, guid: 3030fcd3fe00e504d99f193c4b10be34, type: 3}
+    source: {fileID: 0}
+    volume: 0.7
+    pitch: 1
+  - name: Mask Fire Hit
+    clip: {fileID: 8300000, guid: ba8b2446512c6cc4b99c0c35dd186689, type: 3}
+    source: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+  - name: Player Hit
+    clip: {fileID: 8300000, guid: 790a0d0577b88ab4ab70a20378573204, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Player Dash
+    clip: {fileID: 8300000, guid: 1d0cca86a72591b449614e6a54ff008f, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Alert
+    clip: {fileID: 8300000, guid: ac94ce5cc87016040b9619f5b32da2e7, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Enemy Spawn
+    clip: {fileID: 8300000, guid: 83e6925d84e472f4f825be5253335d23, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Jelly Death
+    clip: {fileID: 8300000, guid: ecd6d1c330111d149a393f46212af962, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Howler Death
+    clip: {fileID: 8300000, guid: 6b4341be1f00e0d4dbaac2019b706803, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Howler Hurt
+    clip: {fileID: 8300000, guid: 8be88d442d5c48146987e3352c4e1a34, type: 3}
+    source: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+  - name: Howler Scream
+    clip: {fileID: 8300000, guid: 253d65b634acc084eb97347f31bade68, type: 3}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bff505ec774d6547ad049be2cec1e69, type: 3}
+  m_Name: Blue Pill
+  m_EditorClassIdentifier: 
+  itemName: Blue Pill
+  description: Speed waaaay up, health decreased to 1.
+  icon: {fileID: -2347524659153939361, guid: 7505a4f51226d6a4abeb4a7563661d0f, type: 3}
+  instance: {fileID: 2604375634136803627, guid: 11b60d92908da04499b04f802232fc97,
+    type: 3}

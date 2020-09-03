@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dungeon_jelly
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+    totalSpriteSurfaceArea: 135168
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 6401560792512972254, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -5314452879557555647, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 7617358390529335160, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 2289929027897419249, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -262513302494228302, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 8162359775752825278, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 5240029129639060767, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 254498682462353596, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -7300519650414607088, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 8460010092434953679, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -6076469258416941230, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -4493352276589342533, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 1741787916973948660, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 4011236912308696992, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 6881173464786735064, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -7956379343673681399, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 3020444662794629884, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -324933814263181733, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 2811871287130451155, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -1808324945998736342, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -3617576804802502640, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 8628258462048884292, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 3574028837545351474, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 8547464292830987614, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 3204406032504548385, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -3991878320522103188, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 7470009122643765997, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 2795491166632335397, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -4351773756863898341, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -2799264934275300540, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -8195552304055221036, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: -5826481932528990192, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  - {fileID: 2262668259004758343, guid: da3a880ab859bc64584b8fd5d7c50aa8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - dungeon_jelly_30
+  - dungeon_jelly_31
+  - dungeon_jelly_32
+  - dungeon_jelly_23
+  - dungeon_jelly_22
+  - dungeon_jelly_21
+  - dungeon_jelly_20
+  - dungeon_jelly_16
+  - dungeon_jelly_27
+  - dungeon_jelly_17
+  - dungeon_jelly_26
+  - dungeon_jelly_14
+  - dungeon_jelly_25
+  - dungeon_jelly_15
+  - dungeon_jelly_24
+  - dungeon_jelly_12
+  - dungeon_jelly_13
+  - dungeon_jelly_10
+  - dungeon_jelly_29
+  - dungeon_jelly_11
+  - dungeon_jelly_28
+  - dungeon_jelly_18
+  - dungeon_jelly_19
+  - dungeon_jelly_3
+  - dungeon_jelly_2
+  - dungeon_jelly_1
+  - dungeon_jelly_0
+  - dungeon_jelly_7
+  - dungeon_jelly_6
+  - dungeon_jelly_5
+  - dungeon_jelly_4
+  - dungeon_jelly_9
+  - dungeon_jelly_8
+  m_Tag: dungeon_jelly
+  m_IsVariant: 0

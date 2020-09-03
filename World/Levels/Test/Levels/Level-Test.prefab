@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &682913511056889982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5955027210735298158}
+  - component: {fileID: 3105990406910837604}
+  m_Layer: 0
+  m_Name: Level-Test
+  m_TagString: dungeon
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5955027210735298158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682913511056889982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6786275161458915242}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3105990406910837604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682913511056889982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e521615a998e3ca42a4b1e1dc2bb9df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSize: 12
+  minSize: 5
+  dungeonSize: 0
+  waitTime: 0.02
+  dungeon:
+    serializedVersion: 2
+    m_Bits: 256
+  start: {fileID: 9031571305306900118, guid: 599eed88763e2804985f2b40a66721b5, type: 3}
+  spawn_table:
+  - _name: LRTB
+    result: {fileID: 9031571305306900118, guid: 599eed88763e2804985f2b40a66721b5,
+      type: 3}
+    weight: 1
+    type: 1
+  - _name: R
+    result: {fileID: 1511468126252163942, guid: 791c8524759663948869c2ba5a0523fe,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: L
+    result: {fileID: 8706103827405288829, guid: cfefb597df5ff914f817b2682e58c363,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: T
+    result: {fileID: 8510389923454766065, guid: 06f1fdb0725aa6c4e98f1a07fc6ee5ff,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: B
+    result: {fileID: 4515492390446966742, guid: e026f501cd85c094e9d705891fbfc938,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: LT
+    result: {fileID: 5820666480435931997, guid: 03e4608d49c7dd04ba0bad74439accaf,
+      type: 3}
+    weight: 10
+    type: 1
+  - _name: LR
+    result: {fileID: 496420340726048465, guid: d3425f476ca117246823a20bb4e27c60, type: 3}
+    weight: 15
+    type: 1
+  - _name: LB
+    result: {fileID: 7839007297125614205, guid: 1cc2b5454c6838b48bed657c9012c5fa,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: RB
+    result: {fileID: 6586448132885331528, guid: 000c538cb50880f4ea8babff638c14fc,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: RT
+    result: {fileID: 5330200328409407714, guid: 4093b924b27f04646a6ac3e759e73474,
+      type: 3}
+    weight: 5
+    type: 1
+  - _name: TB
+    result: {fileID: 8596129644596522925, guid: cb1de4f1ec198f04390dd48e599b33fc,
+      type: 3}
+    weight: 15
+    type: 1
+--- !u!1 &4057050489809028527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6786275161458915242}
+  m_Layer: 0
+  m_Name: start-point
+  m_TagString: dungeon_start
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6786275161458915242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4057050489809028527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5955027210735298158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0df007c13521b748a69d5883a6c01c8, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  tileSet:
+  - name: Top Ground
+    tiles:
+    - {fileID: 11400000, guid: 3b103ca4c671518498e30a9b0d06045d, type: 2}
+    - {fileID: 11400000, guid: e18f179159f285641abdbca4eaf68c4b, type: 2}
+    - {fileID: 11400000, guid: 99571fc1d7fd1184798a021b43396166, type: 2}
+    - {fileID: 11400000, guid: 59025272a272a0d498025b75e15b26d4, type: 2}
+  - name: Bottom Ground
+    tiles:
+    - {fileID: 11400000, guid: e6841820c00e85b4389057f3140f9fb7, type: 2}
+    - {fileID: 11400000, guid: e90dd37ee078f5b47a61c6f3c9ce039c, type: 2}
+    - {fileID: 11400000, guid: 628451a116ff680448d7a94ec460aa3d, type: 2}
+  - name: Right Ground
+    tiles:
+    - {fileID: 11400000, guid: d30b33b3c58882944a0bffe8b0e0efcb, type: 2}
+    - {fileID: 11400000, guid: c440b896c57c74b4aa5352ab6c67f9be, type: 2}
+    - {fileID: 11400000, guid: e359020513174604497b5068442b4427, type: 2}
+    - {fileID: 11400000, guid: 16b4ff34d3de47744aefc785c24ab03b, type: 2}
+  - name: Left Ground
+    tiles:
+    - {fileID: 11400000, guid: a8a90a0cbd34b394c9947b09a56ccba2, type: 2}
+    - {fileID: 11400000, guid: 62854682aa2dc4d408523c6b1ef8b81a, type: 2}
+    - {fileID: 11400000, guid: cf8a5fc710bd57d44a9feb0f2c5c4634, type: 2}
+    - {fileID: 11400000, guid: 62172196c030d2d47b0f6dde90c493f3, type: 2}
+  - name: TR Corner
+    tiles:
+    - {fileID: 11400000, guid: 970b8567065ae8e4c9462e71aea7e2e6, type: 2}
+  - name: TL Corner
+    tiles:
+    - {fileID: 11400000, guid: da1ef24012b4d7e43a1b72e2487843cd, type: 2}
+  - name: BL Corner
+    tiles:
+    - {fileID: 11400000, guid: 38a247564d13400499901d65897d90ea, type: 2}
+  - name: BR Corner
+    tiles:
+    - {fileID: 11400000, guid: 9d4d7cb1f1f07f84784a8e2b40fc259c, type: 2}
+  - name: BR CornerStone
+    tiles:
+    - {fileID: 11400000, guid: be09bae657f3de54dbd8199233626891, type: 2}
+  - name: BL CornerStone
+    tiles:
+    - {fileID: 11400000, guid: 32e798bef04e5464cbe6fe3ade07f367, type: 2}
+  - name: TR CornerStone
+    tiles:
+    - {fileID: 11400000, guid: a94a3b95684c57b469be1e0e755b7842, type: 2}
+  - name: TL  CornerStone
+    tiles:
+    - {fileID: 11400000, guid: d2d1dbafd9b4ad049bd24510c92642be, type: 2}
+  - name: Background
+    tiles:
+    - {fileID: 11400000, guid: 61e6e9548ba0a164aa8494f670b55474, type: 2}
+    - {fileID: 11400000, guid: 40c445a4c023d1f40b5b16af3d1072a6, type: 2}
+    - {fileID: 11400000, guid: 5d39e9c43e53e1947b56b6852a688b0e, type: 2}
+    - {fileID: 11400000, guid: 3fd773f35fc85a247a4dabf684d8d9df, type: 2}
+  - name: Tunnel Horizontal
+    tiles:
+    - {fileID: 11400000, guid: a839f51e58eec304ab954649193db31c, type: 2}
+  - name: Tunnel Vertical
+    tiles:
+    - {fileID: 11400000, guid: f3463fb1b5cb96c42806cdeff6d96469, type: 2}
+  - name: Fill
+    tiles:
+    - {fileID: 11400000, guid: c6c51d6c9aec64248936a65574fe2294, type: 2}
+  - name: Tunnel Horizontal Closed
+    tiles:
+    - {fileID: 11400000, guid: 59824cf9673e23046a055da252004836, type: 2}
+  - name: Tunnel Vertical Closed
+    tiles:
+    - {fileID: 11400000, guid: fb4009864fedbf24882b73133cd4f508, type: 2}

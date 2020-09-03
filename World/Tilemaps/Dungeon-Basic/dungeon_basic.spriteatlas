@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dungeon_basic
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+    totalSpriteSurfaceArea: 32768
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 5725026215794006684, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -4518345977873478985, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 5525247708875581612, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -416529756740633974, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 7436775280952032809, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 1522280539917561259, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -3612604939122955642, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -4525931727946300413, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -6954436860378911253, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -141837091513331833, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 4404621094213594644, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -8399593996992497148, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -6142276565861985490, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -3429571983143214577, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 7533886612835526521, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 305607312606681531, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -1103612816544597325, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 8338057940803702834, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -5908478373175961834, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 2274509588129260879, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -2279937959604616821, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 4007252607231613136, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 6192409568032496017, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -4781528954437515197, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -308332810278468365, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 8836828572209944914, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 3715769854682653970, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 8587327219776148641, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -2892280457839090989, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 723488239011926760, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: 2204827733519551845, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  - {fileID: -7152450471606295000, guid: e08e53c5902e9cf42bd807346da63cce, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - dungeon_basic_29
+  - dungeon_basic_28
+  - dungeon_basic_30
+  - dungeon_basic_31
+  - dungeon_basic_21
+  - dungeon_basic_20
+  - dungeon_basic_23
+  - dungeon_basic_22
+  - dungeon_basic_25
+  - dungeon_basic_24
+  - dungeon_basic_27
+  - dungeon_basic_26
+  - dungeon_basic_1
+  - dungeon_basic_0
+  - dungeon_basic_3
+  - dungeon_basic_2
+  - dungeon_basic_5
+  - dungeon_basic_4
+  - dungeon_basic_7
+  - dungeon_basic_6
+  - dungeon_basic_9
+  - dungeon_basic_8
+  - dungeon_basic_10
+  - dungeon_basic_11
+  - dungeon_basic_12
+  - dungeon_basic_13
+  - dungeon_basic_14
+  - dungeon_basic_15
+  - dungeon_basic_16
+  - dungeon_basic_17
+  - dungeon_basic_18
+  - dungeon_basic_19
+  m_Tag: dungeon_basic
+  m_IsVariant: 0

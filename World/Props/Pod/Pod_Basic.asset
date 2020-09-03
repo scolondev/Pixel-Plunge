@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e9a45bb9180fd4897b6f2d5e518e88, type: 3}
+  m_Name: Pod_Basic
+  m_EditorClassIdentifier: 
+  rolls: 060000000a000000
+  entries:
+  - _name: Silver Coin
+    result: {fileID: 1716550529200797037, guid: cd047742f7364e948af02310ed7ce7dc,
+      type: 3}
+    weight: 60
+  - _name: Gold Coin
+    result: {fileID: 7083791795548241138, guid: 088e252c762f06f4583c752d30c05a43,
+      type: 3}
+    weight: 40

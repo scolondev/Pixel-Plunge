@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e328f110dba0e49a21e3bcb33e959f, type: 3}
+  m_Name: Dark Depths - Uproar
+  m_EditorClassIdentifier: 
+  _name: Dark Depths - Uproar
+  description: Stop!
+  prefab: {fileID: 1936174317794384624, guid: 532e2fc7c9b51d9448e829ddadc8f71e, type: 3}
+  weight: 5
+  setpiece: Sadness
+  setpiece_index: 2
+  icon: {fileID: -2292698533589896919, guid: d75dd4d057c3a564cbda34c3e59fb241, type: 3}
+  backing: {fileID: 2230789357500854143, guid: 3dfcf3f83a76c254ab4964ad7cf22c68, type: 3}
+  backing_color: {r: 0.3882353, g: 0, b: 0.6431373, a: 1}

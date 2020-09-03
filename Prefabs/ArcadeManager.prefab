@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5332096888084019859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5332096888084019857}
+  - component: {fileID: 5332096888084019856}
+  - component: {fileID: 305366913}
+  m_Layer: 0
+  m_Name: ArcadeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5332096888084019857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332096888084019859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5332096888084019856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332096888084019859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76a0811cddc7bd4c92a3af2daafd4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arcadeData: {fileID: 305366913}
+  nextWorldText: {fileID: 0}
+  panels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  suffixSprites:
+  - {fileID: -2617210685403849697, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: 1016131863583401141, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: 5201251597428677879, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: -6276825489486517729, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: 7077492642693841369, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: -7175313680610322777, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: 5158454581965321340, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: 5879734044636855727, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: -2277651163402225759, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  - {fileID: -2097981049075092381, guid: db04b233c0fca9c4db7adfd186e165c6, type: 3}
+  progress: 0
+  difficulty: 1
+  worldChoice: 0
+  displayedWorld: 0
+  dungeon: {fileID: 0}
+  player: {fileID: 0}
+  map: {fileID: 0}
+  levels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isMenu: 1
+  possibleLevels:
+  - {fileID: 11400000, guid: 73bea12222ea1f44fa915a83a96ad0eb, type: 2}
+  - {fileID: 11400000, guid: 7cfc3f510fc311546bdee0ef1a704b44, type: 2}
+  - {fileID: 11400000, guid: da355789579f0b74bac889fb163a2e65, type: 2}
+  - {fileID: 11400000, guid: 2d787b7e7c3b97b44b057394e0423370, type: 2}
+  - {fileID: 11400000, guid: 6b9c850692037f145b9573d8ff6af70c, type: 2}
+  - {fileID: 11400000, guid: 292f13798ba7fa346a24fff6638702ba, type: 2}
+  - {fileID: 11400000, guid: 7c9c5f46d09247c4c9e9a902db68969c, type: 2}
+  - {fileID: 11400000, guid: 4b39b5d6cb808714ebb53dae2cb59939, type: 2}
+  - {fileID: 11400000, guid: 0aa70163ba524ce45bca0945a20cf0ec, type: 2}
+  - {fileID: 11400000, guid: 3a41971f14825a142aaf41c0c1552358, type: 2}
+  - {fileID: 11400000, guid: 7c9c5f46d09247c4c9e9a902db68969c, type: 2}
+  - {fileID: 11400000, guid: 2806eb406115c354fa05381095700c83, type: 2}
+--- !u!114 &305366913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332096888084019859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5456bb9bc9d566458f88562e259edab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldData:
+    nextWorld: d00700000100000001000000010000000100000001000000
+    worlds: []

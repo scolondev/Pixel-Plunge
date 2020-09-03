@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1b7745b85d2634dba8538b722cdd62, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: 
+  damage:
+    value: 1
+    maximum: 10
+    minimum: 1
+    wrapValue: 1
+  speed:
+    value: 250
+    maximum: 250
+    minimum: 1
+    wrapValue: 1
+  homing: 0
+  fireSound: Jelly Hit 1
+  impactSound: Jelly Hit 2
+  deathEffect: {fileID: 4479359960272953246, guid: da0c36fa349e253419512a60f6a2d46f,
+    type: 3}
+  seek: 0
