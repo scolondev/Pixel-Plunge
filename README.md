@@ -5,7 +5,7 @@ I've fixed two bugs with the old version and it is now playable again, it is sti
 
 At the time, I did not have the skills to make this project live up to my expectations and it was consumed by my scope.
 
-If you would like to use this code, please review the Terms of the Apache 2.0 License.
+If you would like to use this code, please review the Terms of the Apache 2.0 License.  If you wish to download this code and start working on the project, you'll need to download a lot of Unity Packages.
  
  
  
