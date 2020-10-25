@@ -5,6 +5,7 @@ I've fixed two bugs with the old version and it is now playable again, it is sti
 
 At the time, I did not have the skills to make this project live up to my expectations and it was consumed by my scope.
 
+This project is now open-source if you wish to mess around with it, I am fine with whatever you do with it as long as it is not used for commercial us.
  
  
  
